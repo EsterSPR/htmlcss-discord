@@ -41,7 +41,7 @@ nav {
     text-decoration: none;
 }
 
-#accedi {
+input[value="Accedi"] {
     padding: 10px 15px;
     background-color: #fff;
     color: #23272A;
@@ -211,42 +211,92 @@ h1 {
 /*footer*/
 
 footer {
-    background-color: #F08A4B;
+    background-color: #23272A;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.footer-content {
+.footer-content-1 {
     width: 70%;
     display: flex;
     justify-content: center;
-    margin: 50px auto;
+    margin: 80px auto 30px auto;
+}
+
+.footer-content-2 {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
 }
 
 .footer-column-first {
     width: 30%;
-    height: 400px;
-    background-color: #F3CA40;
-    border: 2px dotted  black;
+    color: #fff;
+}
+
+.footer-column-first > h3 {
+    font-size: 25pt;
+    color: #8EA1E1;
+    margin-bottom: 30px;
+}
+
+#language {
+    height: 20px;
+    margin-right: 5px;
+    float: left;
+}
+
+#footer-icons-container {
+    margin-top: 25px;
+}
+
+.footer-icons {
+    color: #fff;
+    font-size: 17pt;
+    text-decoration: none;
+    margin-right: 25px;
 }
 
 .footer-column-sm {
-    background-color: #F2A541;
-    height: 400px;
     width: calc(70%/4);
-    border: 2px dotted  black;
+    line-height: 30px;
+    color: #fff;
+}
+
+.footer-title-sm {
+    color: #8EA1E1;
+}
+
+.footer-item {
+    color: #fff;
+    text-decoration: none;
+}
+
+hr {
+    background-color: #8EA1E1;
+    border: none;
+    height: 1px;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .footer-column {
-    background-color: #577590;
     width: 50%;
     padding: 20px 0;
     vertical-align: middle;
-    border: 2px dotted  black;
 }
 
 .footer-right {
     text-align: right;
+}
+
+input[value="Registrati"] {
+    padding: 10px 15px;
+    background-color: #8EA1E1;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
 }
