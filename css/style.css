@@ -1,13 +1,19 @@
+@import url('http://fonts.cdnfonts.com/css/whitney-2');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+body {
+    font-family: 'Whitney', sans-serif;
+}
+
 /*nav*/
 
 nav {
-    background-color: #F08A4B;
+    background-color: #3161E0;
     width: 100%;
     min-height: 80px;
     display: flex;
@@ -17,27 +23,42 @@ nav {
     display: flex;
     width: 100%;
     align-items: center;
-    border: 2px dotted  black;
 }
 
 .col-nav {
     width: calc(100%/3);
     text-align: center;
-    background-color: #577590;
     padding: 15px 0;
-    border: 2px dotted  black;
+}
+
+.link-middle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+}
+
+input {
+    padding: 10px 15px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 30px;
 }
 
 /*header*/
 
 header{
-    background-color: #F2A541;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     width: 100%;
     display: flex;
 }
 
 #header-content {
-    background-color: #F3CA40;
     margin: 100px auto;
     height: 350px;
     width: 800px;
