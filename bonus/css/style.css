@@ -41,12 +41,22 @@ nav {
     text-decoration: none;
 }
 
+.nav-item:hover {
+    text-decoration: underline;
+}
+
 input[value="Accedi"] {
     padding: 10px 15px;
     background-color: #fff;
     color: #23272A;
     border: none;
     border-radius: 30px;
+    transition: 0.5s;
+}
+
+input[value="Accedi"]:hover {
+    color: #265DE9;
+    box-shadow: 0px 5px 15px rgba(19, 51, 132, 0.7);
 }
 
 /*header*/
@@ -84,6 +94,12 @@ h1 {
     border: none;
     border-radius: 30px;
     margin-right: 20px;
+    transition: 0.5s;
+}
+
+#header-btn-1:hover {
+    color: #265DE9;
+    box-shadow: 0px 5px 15px rgba(19, 51, 132, 0.7);
 }
 
 #header-btn-2 {
@@ -93,6 +109,12 @@ h1 {
     color: #fff;
     border: none;
     border-radius: 30px;
+    transition: 0.5s;
+}
+
+#header-btn-2:hover {
+    background-color: #2c2f33;
+    box-shadow: 0px 5px 15px rgba(19, 51, 132, 0.7);
 }
 
 /*main*/
@@ -214,6 +236,12 @@ h1 {
     border: none;
     border-radius: 30px;
     margin-top: 30px;
+    transition: 0.5s;
+}
+
+#section-btn:hover {
+    background-color: #265DE9;
+    box-shadow: 0px 5px 15px rgba(19, 51, 132, 0.7);
 }
 
 /*footer*/
@@ -283,6 +311,10 @@ footer {
     text-decoration: none;
 }
 
+.footer-item:hover {
+    text-decoration: underline;
+}
+
 hr {
     background-color: #8EA1E1;
     border: none;
@@ -307,4 +339,10 @@ input[value="Registrati"] {
     color: #fff;
     border: none;
     border-radius: 30px;
+    transition: 0.5s;
+}
+
+input[value="Registrati"]:hover {
+    background-color: #265DE9;
+    box-shadow: 0px 5px 15px rgba(19, 51, 132, 0.7);
 }
