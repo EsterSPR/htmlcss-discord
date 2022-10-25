@@ -1,0 +1,310 @@
+@import url('http://fonts.cdnfonts.com/css/whitney-2');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Whitney', sans-serif;
+}
+
+/*nav*/
+
+nav {
+    background-color: #265DE9;
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+}
+
+#row-nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.col-nav {
+    width: calc(100%/3);
+    text-align: center;
+    padding: 15px 0;
+}
+
+.link-middle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+}
+
+input[value="Accedi"] {
+    padding: 10px 15px;
+    background-color: #fff;
+    color: #23272A;
+    border: none;
+    border-radius: 30px;
+}
+
+/*header*/
+
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    width: 100%;
+    display: flex;
+}
+
+#header-content {
+    margin: 100px auto;
+    width: 630px;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-size: 40pt;
+    margin-bottom: 40px;
+}
+
+#header-content > p {
+    font-size: 13pt;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+#header-btn-1 {
+    padding: 15px 25px;
+    font-size: 12pt;
+    background-color: #fff;
+    color: #23272A;
+    border: none;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+#header-btn-2 {
+    padding: 15px 25px;
+    font-size: 12pt;
+    background-color: #23272A;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+}
+
+/*main*/
+
+.white {
+    background-color: #fff;
+    color: #23272A;
+    width: 100%;
+    padding: 100px 0 230px 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.grey {
+    background-color: #F6F6F6;
+    color: #23272A;
+    width: 100%;
+    padding: 100px 0 230px 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}  
+
+.wave {
+        bottom: 0;
+        position: absolute;
+        width: 100vw;
+}
+
+.content {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    width: 60%;
+}
+
+.caption {
+    width: 40%;+
+}
+
+.right-capt > h2 {
+    font-size: 30pt;
+    line-height: 50px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+.right-capt > p {
+    font-size: 13pt;
+    line-height: 25px;
+    margin-left: 150px;
+}
+
+.left-capt > h2 {
+    font-size: 30pt;
+    line-height: 50px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+}
+
+.left-capt > p {
+    font-size: 13pt;
+    line-height: 25px;
+    margin-right: 150px;
+}
+
+/*main - last section*/
+
+#last-section {
+    width: 70%;
+    text-align: center;
+}
+
+#last-caption{
+    width: 100%;
+    
+}
+
+#last-caption > h2 {
+    font-size: 30pt;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+#last-caption > p {
+    font-size: 13pt;
+    line-height: 25px;
+}
+
+#last-img {
+    width: 100%;
+}
+
+#last-img-content {
+    width: 100%;
+}
+
+#download{
+    width: 100%;
+    margin-top: 20px;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#download > h3 {
+    font-size: 20pt;
+}
+
+#section-btn {
+    padding: 15px 25px;
+    font-size: 12pt;
+    background-color: #8EA1E1;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+/*footer*/
+
+footer {
+    background-color: #23272A;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-content-1 {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 80px auto 30px auto;
+}
+
+.footer-content-2 {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+}
+
+.footer-column-first {
+    width: 30%;
+    color: #fff;
+}
+
+.footer-column-first > h3 {
+    font-size: 25pt;
+    color: #8EA1E1;
+    margin-bottom: 30px;
+}
+
+#language {
+    height: 20px;
+    margin-right: 5px;
+    float: left;
+}
+
+#footer-icons-container {
+    margin-top: 25px;
+}
+
+.footer-icons {
+    color: #fff;
+    font-size: 17pt;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.footer-column-sm {
+    width: calc(70%/4);
+    line-height: 30px;
+    color: #fff;
+}
+
+.footer-title-sm {
+    color: #8EA1E1;
+}
+
+.footer-item {
+    color: #fff;
+    text-decoration: none;
+}
+
+hr {
+    background-color: #8EA1E1;
+    border: none;
+    height: 1px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.footer-column {
+    width: 50%;
+    padding: 20px 0;
+    vertical-align: middle;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+input[value="Registrati"] {
+    padding: 10px 15px;
+    background-color: #8EA1E1;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+}
